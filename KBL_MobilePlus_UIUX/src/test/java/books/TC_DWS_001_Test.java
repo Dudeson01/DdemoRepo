@@ -25,6 +25,7 @@ public class TC_DWS_001_Test extends BaseClass {
 
 		Assert.assertEquals(driver.getTitle(),"Demo Shop. Books","Books page is not displayed");//OnTestFailure method will be called
 		test.log(Status.PASS,"Books page is diusplayed");
+		test.log("to check the modification done in github is being reflected on ecliplse after pulling it")
 	}
 
 }
